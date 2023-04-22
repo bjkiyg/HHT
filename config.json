@@ -11,7 +11,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                        "id": "2dc0fb6e-f1b5-46dd-90ec-2b3f35712e08",
                         "flow": "xtls-rprx-direct"
                     }
                 ],
@@ -21,15 +21,15 @@
                         "dest": 3001
                     },
                     {
-                        "path": "/vless",
+                        "path": "/2dc0fb6e-f1b5-46dd-90ec-2b3f35712e08-vless",
                         "dest": 3002
                     },
                     {
-                        "path": "/vmess",
+                        "path": "/2dc0fb6e-f1b5-46dd-90ec-2b3f35712e08-vmess",
                         "dest": 3003
                     },
                     {
-                        "path": "/trojan",
+                        "path": "/2dc0fb6e-f1b5-46dd-90ec-2b3f35712e08-trojan",
                         "dest": 3004
                     },
                     {
@@ -49,7 +49,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18"
+                        "id": "2dc0fb6e-f1b5-46dd-90ec-2b3f35712e08"
                     }
                 ],
                 "decryption": "none"
@@ -66,7 +66,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                        "id": "2dc0fb6e-f1b5-46dd-90ec-2b3f35712e08",
                         "level": 0
                     }
                 ],
@@ -76,7 +76,7 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/vless"
+                    "path": "/2dc0fb6e-f1b5-46dd-90ec-2b3f35712e08-vless"
                 }
             },
             "sniffing": {
@@ -96,7 +96,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "de04add9-5c68-8bab-950c-08cd5320df18",
+                        "id": "2dc0fb6e-f1b5-46dd-90ec-2b3f35712e08",
                         "alterId": 0
                     }
                 ]
@@ -104,7 +104,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/vmess"
+                    "path": "/2dc0fb6e-f1b5-46dd-90ec-2b3f35712e08-vmess"
                 }
             },
             "sniffing": {
@@ -124,7 +124,7 @@
             "settings": {
                 "clients": [
                     {
-                        "password": "de04add9-5c68-8bab-950c-08cd5320df18"
+                        "password": "2dc0fb6e-f1b5-46dd-90ec-2b3f35712e08"
                     }
                 ]
             },
@@ -132,7 +132,7 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/trojan"
+                    "path": "/2dc0fb6e-f1b5-46dd-90ec-2b3f35712e08-trojan"
                 }
             },
             "sniffing": {
@@ -153,7 +153,7 @@
                 "clients": [
                     {
                         "method": "chacha20-ietf-poly1305",
-                        "password": "de04add9-5c68-8bab-950c-08cd5320df18"
+                        "password": "2dc0fb6e-f1b5-46dd-90ec-2b3f35712e08"
                     }
                 ],
                 "decryption": "none"
